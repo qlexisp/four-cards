@@ -1,0 +1,30 @@
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+$verydarkblue: hsl(234, 12%, 34%);
+$greyblue: hsl(229, 6%, 66%);
+$lightgrey: hsl(0, 0%, 98%);
+
+body {
+background-color: $lightgrey;
+font-family: 'Poppins';
+        h1 {
+        color: $verydarkblue;
+    }
+        p {
+        color: $greyblue;
+    }
+}
+.title {
+    text-align: center;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+        .title__1 {
+            font-weight: 200;
+    }
+        .title__p {
+            font-size: 15px;
+    }
+}
